@@ -153,7 +153,7 @@ body {
   background-color: rgb(175, 90, 255);
 }
 .section2{
-  margin-left: 30vw;
+  margin-left: 27vw;
   margin-top: -80vh;
   align-items: center;
   padding: 15px;
@@ -171,6 +171,7 @@ body {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+  margin-left: -30px;
 }
 #image{
   width: 30px;
@@ -182,7 +183,7 @@ body {
   opacity: 0.8;
 }
 .post-place{
-  width: 34vw;
+  width: 30vw;
   height: 7vh;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.301);
@@ -212,7 +213,7 @@ body {
 .section3{
   background-color: #161220;
   width: 40vw;
-  margin-left: 30vw;
+  margin-left: 27vw;
   margin-top: 2vh;
   padding: 15px;
   border-radius: 15px;
@@ -242,4 +243,108 @@ body {
 .post-content img{
   width: 40vw;
   border-radius: 15px;
+}
+.reactions img{
+  width: 25px;
+  margin-top: 5px;
+}
+#repost{
+  width: 25px;
+  height: 25px;
+}
+.reactions{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Varela Round", system-ui;
+  font-size: small;
+  height: 6vh;
+  align-items: center;
+}
+.heart,.comment,.share{
+  display: flex;
+  width: 5vw;
+  align-items: center;
+  height: 6vh;
+  justify-content: space-between;
+}
+.section4{
+  margin-left: 71vw;
+  margin-top: -105vh;
+}
+.section4 h1{
+  font-family: "Ubuntu", sans-serif;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10{
+  display: flex;
+  /* border: 1px solid white; */
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 2vh;
+  border-radius: 15px;
+  background-color: #161220;
+}
+.cards{
+  padding-right: 15px;
+  width: 20vw;
+  font-family: "Varela Round", system-ui;
+}
+.card1 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card2 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card3 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card4 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card5 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card6 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card7 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card8 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card9 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.card10 img{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50px;
+  margin-right: 15px;
 }
