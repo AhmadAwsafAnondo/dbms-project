@@ -19,6 +19,7 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 .nav {
+  /* position: absolute; */
   display: flex;
   border: none;
   justify-content: space-around;
@@ -32,6 +33,7 @@ body {
   color: white;
 }
 .search {
+  /* position: absolute; */
   display: flex;
   height: 30px;
   padding: 5px 10px;
@@ -137,6 +139,7 @@ body {
   background-color: #161220;
 }
 .create-post-btn{
+  /* position: absolute; */
   height: 8vh;
   border: none;
   border-radius: 50px;
@@ -153,8 +156,11 @@ body {
   background-color: rgb(175, 90, 255);
 }
 .section2{
-  margin-left: 27vw;
-  margin-top: -80vh;
+  position: absolute;
+  left: 380px;
+  top: 100px;
+  /* margin-left: 27vw; */
+  /* margin-top: -80vh; */
   align-items: center;
   padding: 15px;
   border-radius: 50px;
@@ -211,6 +217,9 @@ body {
   
 }
 .section3{
+  position: absolute;
+  top: 180px;
+  left: 14px;
   background-color: #161220;
   width: 40vw;
   margin-left: 27vw;
@@ -268,8 +277,11 @@ body {
   justify-content: space-between;
 }
 .section4{
-  margin-left: 71vw;
-  margin-top: -105vh;
+  position: absolute;
+  top: 75px;
+  left: 1000px;
+  /* margin-left: 71vw; */
+  /* margin-top: -105vh; */
 }
 .section4 h1{
   font-family: "Ubuntu", sans-serif;
