@@ -263,7 +263,7 @@ body {
 }
 .reactions{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: "Varela Round", system-ui;
   font-size: small;
   height: 6vh;
