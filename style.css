@@ -156,21 +156,19 @@ body {
   background-color: rgb(175, 90, 255);
 }
 .section2{
-  position: absolute;
-  left: 380px;
-  top: 100px;
-  /* margin-left: 27vw; */
-  /* margin-top: -80vh; */
-  align-items: center;
+  position: relative;
+  left: 24rem;
+  top: -30.5rem;
   padding: 15px;
   border-radius: 50px;
   width: 40vw;
-  align-items: center;
+  justify-content: space-around;
   background-color: #161220;
 }
 .post{
+  align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #post-profile{
   width: 40px;
@@ -180,7 +178,7 @@ body {
   margin-left: -30px;
 }
 #image{
-  width: 30px;
+  width: 25px;
   opacity: 0.5;
   cursor: pointer;
   margin-top: 5px;
@@ -217,9 +215,9 @@ body {
   
 }
 .section3{
-  position: absolute;
-  top: 180px;
-  left: 14px;
+  position: relative;
+  top: -30rem;
+  left: 1rem;
   background-color: #161220;
   width: 40vw;
   margin-left: 27vw;
@@ -276,10 +274,17 @@ body {
   height: 6vh;
   justify-content: space-between;
 }
+/* *{
+  border: 1px solid white;
+} */
+main{
+  height: 50rem;
+}
 .section4{
-  position: absolute;
-  top: 75px;
+  position: relative;
+  top: -70.5rem;
   left: 1000px;
+  width: 18rem;
   /* margin-left: 71vw; */
   /* margin-top: -105vh; */
 }
