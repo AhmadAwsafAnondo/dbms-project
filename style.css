@@ -28,6 +28,9 @@ body {
   background-color: #161220;
   border-radius: 15px;
 }
+.login-btn a{
+  text-decoration: none;
+}
 .nav > a {
   text-decoration: none;
   color: white;
@@ -175,13 +178,11 @@ body {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
-  margin-left: -30px;
 }
 #image{
   width: 25px;
   opacity: 0.5;
   cursor: pointer;
-  margin-top: 5px;
 }
 #image:hover{
   opacity: 0.8;
@@ -364,4 +365,160 @@ main{
   height: 3.5vw;
   border-radius: 50px;
   margin-right: 15px;
+}
+@media screen and (max-width:992px) {
+  .name{
+    font-size: larger;
+  }
+  .search-btn{
+    width: 4rem;
+  }
+  .create-btn{
+    width: 5rem;
+  }
+  .profile img{
+    width: 2rem;
+  }
+  .nav{
+    height: 4rem;
+  }
+  .section1{
+    position: relative;
+    left: -2.5rem;
+    width: 13rem;
+  }
+  .profile-lists{
+    position: relative;
+    left: -1rem;
+  }
+  .section2{
+    position: relative;
+    left: 14.5rem;
+    top: -31.8rem;
+    width: 21.5rem;
+  }
+  .post{
+    position: relative;
+    left: 0.5rem;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+  }
+  .post-place{
+    width: 13rem;
+  }
+  #post-profile{
+    width: 35px;
+    height: 35px;
+  }
+  .section3{
+    position: relative;
+    top: -32rem;
+    left: 0.5rem;
+  }
+  .create-post-btn{
+    position: relative;
+    left: -2.5rem;
+    width: 13rem;
+  }
+  .section4{
+    position: relative;
+    top: -63.6rem;
+    left: 39.2rem;
+    width: 10.5rem;
+  }
+  .reactions{
+    margin-top: 0.5rem;
+  }
+  .heart{
+    width: 65px;
+  }
+  .comment{
+    width: 65px;
+  }
+  .share{
+    width: 65px;
+  }
+}
+@media screen and (max-width:576px) {
+  .name{
+    font-size: larger;
+  }
+  .search{
+    /* display: none; */
+  }
+  .create-btn{
+    display: none;
+  }
+  .search-btn{
+    width: 4rem;
+  }
+  .create-btn{
+    width: 5rem;
+  }
+  .profile img{
+    width: 2rem;
+  }
+  .nav{
+    height: 4rem;
+  }
+  .section1{
+    position: relative;
+    left: -2.5rem;
+    width: 13rem;
+  }
+  .profile-lists{
+    position: relative;
+    left: -1rem;
+  }
+  .section2{
+    position: relative;
+    left: 14.5rem;
+    top: -31.8rem;
+    width: 21.5rem;
+  }
+  .post{
+    position: relative;
+    left: 0.5rem;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+  }
+  .post-place{
+    width: 13rem;
+  }
+  #post-profile{
+    width: 35px;
+    height: 35px;
+  }
+  .section3{
+    position: relative;
+    top: -32rem;
+    left: 0.5rem;
+  }
+  .create-post-btn{
+    position: relative;
+    left: -2.5rem;
+    width: 13rem;
+  }
+  .section4{
+    position: relative;
+    top: -63.6rem;
+    left: 39.2rem;
+    width: 10.5rem;
+  }
+  .reactions{
+    margin-top: 0.5rem;
+  }
+  .heart{
+    width: 65px;
+  }
+  .comment{
+    width: 65px;
+  }
+  .share{
+    width: 65px;
+  }
 }
